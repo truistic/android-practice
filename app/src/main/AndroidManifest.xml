@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".recyclerview.RecyclerViewActivity"
+            android:label="@string/recyclerview" />
+        <activity
+            android:name=".recyclerview.basic.RecyclerViewBasicActivity"
+            android:label="@string/basic" />
     </application>
-
 </manifest>
